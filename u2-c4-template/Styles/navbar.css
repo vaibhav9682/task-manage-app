@@ -1,0 +1,38 @@
+/* Write necessery css for navbar here  */
+body{
+    background:url(/u2-c4-template/images/peakpx.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+  
+}
+#navbar>div{
+    
+    display: flex;
+    padding-left: 45px;
+    gap:28px;
+    background-color:aquamarine;
+    background-image:linear-gradient(to right,rgb(28, 32, 32),  rgb(219, 219, 219));
+    width:100%;
+    margin-bottom: 45px;
+
+}
+a>h2{
+    color:rgb(190, 201, 195);
+}
+a>h2:hover{
+    color:white;
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+#navbar>h1, h2, select+h1{
+    text-align: center;
+    padding-bottom: 7px;
+}
+a:link{
+    text-decoration: none;
+}
+#filter{
+    margin-left: 30px;
+}
+

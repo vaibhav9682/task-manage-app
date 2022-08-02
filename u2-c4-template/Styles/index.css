@@ -1,0 +1,85 @@
+/* Write css related to the Home page here  */
+body{
+    background:url(/u2-c4-template/images/peakpx.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+  
+}
+
+
+#navbar>h1, h2{
+    text-align: center;
+    padding-bottom: 7px;
+}
+a:link{
+    text-decoration: none;
+}
+
+a>h2{
+    color:rgb(190, 201, 195);
+}
+a>h2:hover{
+    color:white;
+    transform: scale(1.1);
+    transition: transform .2s;
+}
+#navbar>div{
+    
+    display: flex;
+    padding-left: 50px;;
+    gap:28px;
+    background-color:aquamarine;
+    background-image:linear-gradient(to right,rgb(28, 32, 32),  rgb(219, 219, 219));
+    width:100%;
+    margin-bottom: 45px;
+
+}
+#create{
+    width:40%;
+    margin: auto;
+    padding-top: 7px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+form{
+    display:grid;
+    grid-template-columns: 1,auto;
+    grid-template-rows: repeat(4,auto);
+}
+
+.text, #priority{
+    width:90%;
+    margin:auto;
+    height:50px;
+    margin-bottom: 29px;
+    border:0px;
+    background-color: rgba(193, 207, 207, 0.411) ;
+    border-radius: 5px;
+    font-size: 15px;
+}
+form>label{
+    font-weight:bolder;
+     margin-left: 31px;
+     margin-bottom: 7px;
+     
+   
+}
+
+#priority+input{
+    color:rgb(38, 51, 47);
+    background-color: rgb(192, 210, 228); 
+    width:90%;
+    margin:auto;
+    height:50px;
+    margin-bottom: 29px;
+    border:0px;
+    border-radius: 5px;
+ }
+#priority+input:hover{
+    color:aquamarine;
+    background-color: lightslategrey;
+   font-size: larger;
+    
+}

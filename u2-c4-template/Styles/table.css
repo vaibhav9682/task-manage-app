@@ -1,0 +1,34 @@
+/* Write all the code related to the table here  */
+table{
+    margin:auto;
+    width:70%;
+    table-layout:fixed;
+    
+}
+td:nth-child(2)~td{
+    text-align:center;
+    width:50px
+}
+th{
+  
+    font-size: larger;
+    text-align: center;
+    background-color: rgba(143, 171, 172, 0.274);
+    border-radius: 8px;
+}
+td,th{
+    padding:7px;
+   word-wrap:break-word;
+ 
+
+   
+}
+tbody>tr{
+    color:white;
+   
+  
+}
+tr:hover{
+  color:rgb(0, 0, 0)
+}
+
