@@ -1,5 +1,6 @@
 /* Write css related to the Home page here  */
 body{
+    height:100vh;
     background:url(/task-manage-app/u2-c4-template/images/peakpx.jpg);
     background-size:cover;
     background-attachment: fixed;
